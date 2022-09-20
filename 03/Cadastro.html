@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+</head>
+<body>
+	<h1>Cadastre-se aqui</h1>
+
+	<p><a href="/programacao-web/index.html" target="_self">Home</a></p>
+	
+	<form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+
+	<form>
+		Login:<br/>
+		<input type="text" name="login"><br/>
+
+		Senha:<br/>
+		<input type="password" name="senha"><br/>
+
+		Confirme a senha:<br/>
+		<input type="password" name="confirmaSenha"><br/>
+
+		Nome:<br/>
+		<input type="text" name="nome"><br/>
+
+		Sexo:<br/>
+		<input type="radio" value="M" name="sexo">Masculino<br/>
+		<input type="radio" value="F" name="sexo">Femenino<br/>
+
+		Email:<br/>
+		<input type="email" name="email"><br/>
+
+		Estado:<br/>
+		<select name="estado">
+			<option value="" selected></option>
+			<option value="PI">PI</option>
+			<option value="MA">MA</option>
+			<option value="CE">CE</option>
+			<option value="SP">SP</option>
+		</select><br/>
+
+		Observações:<br/>
+		<textarea name="observacao"></textarea><br/>
+
+		Interesses:<br/>
+		<input type="checkbox" value="Economia" name="interesses">Econômmia<br/>
+		<input type="checkbox" value="Politica" name="interesses">Política<br/>
+		<input type="checkbox" value="Noticia" name="interesses">Notícias do mundo<br/>
+		<input type="checkbox" value="Games" name="interesses">Games<br/>
+		<input type="checkbox" value="Ciência" name="interesses">Ciência<br/>
+		<input type="checkbox" value="Entretenimento" name="interesses">Entretenimento<br/>
+
+		<br/>
+
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Redefinir">
+</body>
+</html>
