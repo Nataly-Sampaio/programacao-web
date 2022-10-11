@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Posicionamento</title>
+
+	<p><a href="/programacao-web/index.html">Home</a></p>
+
+</head>
+
+	<style type="text/css">
+
+		body {
+			background:#DCDCDC;
+		}
+
+		#conteudo{
+			background: #ffffff;
+			padding: 10px;
+			width: 900px;
+			margin: 30px auto;
+		}
+
+		.caixa{
+			background: DodgerBlue;
+			margin: 10px;
+			width: 100px;
+			height: 100px;
+			color: #ffffff;
+		}
+
+		#relativo{
+			position: relative;
+			left: 30px;
+		}
+
+		#absoluto{
+			position: absolute;
+			left: 30px;
+		}
+
+		#fixo{
+			position: fixed;
+			left: 200px;
+			top: 0px;
+		}
+
+	</style>
+
+	<body>
+		
+		<span>Container body</span>
+
+		<div id=conteudo>
+			Container div
+		</div>
+
+			<div id="relativo" class="caixa">
+				Relativo
+			</div>
+
+			<div id="absoluto" class="caixa">
+				Absoluto
+			</div>
+
+			<div id="fixo" class="caixa">
+				Fixo
+			</div>
+
+	</body>
+	
+</html>
