@@ -1,0 +1,60 @@
+		.menu{
+			background: #3EEE685;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			font-size: 18px;
+			padding: 10px;
+		}
+
+		a:link{/*não visitados*/
+			color: #000000;
+			text-decoration: none;
+		}
+
+		a:visited{/*visitados*/
+			color: #A020F7;
+		}
+
+		a:hover{/*passar mouse*/
+			color: #D2691E; /*8b4726*/
+			background: #87CEEB;
+		}
+
+		a:active{/*clicados*/
+			color: #ff1493;
+		}
+
+		.postagem {
+			font-family: "opensans-regular", arial, sans-serif;
+			background-color: #F5F5DC;
+			border: 1px solid black;
+			color: #333;
+			font-size: 16px;
+			padding-left: 15px;
+			padding-right: 10px;
+			text-align: justify;
+			line-height: 24px;
+			width: 500px;
+			margin: 20px;
+		}
+
+		.postagem h1 {
+			color: 3c4170c;
+			font-family: "Helvetica Neue", arial, sans-serif;
+			margin: 8px;
+		}
+
+		.imagem {
+			float: right;
+			width: 200px;
+			padding: 10px;
+			float: left;
+		}
+
+		.postagemp {
+			clear: both;
+		}
+
+		body {
+			background: #F0F8FF;
+		}
+}
