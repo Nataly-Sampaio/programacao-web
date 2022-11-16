@@ -1,0 +1,13 @@
+#principal{
+		width: 700px;
+		border: 1px solid;
+		background-color: rgba(230, 230, 230, 0.5); 
+		display: block;
+		margin-left: 300px;
+		margin-right: 300px;
+		padding-left: 15px;
+		padding-right: 10px;
+}
+table{
+	margin: center;
+}
