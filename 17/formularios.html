@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="css3.css" />
+    <link href="17/bootstrap/css/bootstrap.min.css" rel="stylesheets">
+    
+    <title>Formulario e Tabelas</title>
+
+    <p><a href="/programacao-web/index.html">Home</a></p>
+
+  </head>
+  <body>
+
+  	<div class="container conteudo">
+
+  		<div class="row">
+
+  			<div class="col-sm-8">
+  				<h1>Cadastre-se</h1>
+
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome">
+  			    </div>
+          </form>
+
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+
+         <div class="form-group">
+          <label for="senha">Senha:</label>
+          <input type="password" class="form-control" id="senha">
+         </div>
+
+         <div class="checkbox">
+          <label>
+            <input type="checkbox"> Aceito os termos do serviço.
+          </label>
+         </div>
+
+         <div class="radio">
+          <label>
+            <input type="radio" name="opcoes"> PHP
+          </label>
+
+          <label>
+            <input type="radio" name="opcoes"> JAVA
+          </label>
+
+         </div>
+
+        <button type="submit" class="btn btn-default">Cadastar</button>
+
+  			<div class="col-sm-4">
+  				<h3>Logar</h3>
+
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Digite seu Email">
+          </div>
+
+          <div class="form-group">
+            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Logar</button>
+
+  			</div>
+
+  		</div>
+
+  	</div>
+
+      
+      <table class="table table-striped table-hover table-condensed">
+        <tbody>
+          <tr>
+            <th>Produto</th>
+            <th>Fabricante</th>
+            <th>Preço</th>
+          </tr>
+
+          <tr>
+            <td>Notebook 980</td>
+            <td>HP</td>
+            <td>R$ 1.800,00</td>
+          </tr>
+
+          <tr>
+            <td>MAcBook Air</td>
+            <td>Apple</td>
+            <td>R$ 4.800,00</td>
+          </tr>
+
+          <tr>
+            <td>HP Pavillon</td>
+            <td>HP</td>
+            <td>R$ 2.800,00</td>
+          </tr>
+        </tbody>
+
+  </body>
+</html>
